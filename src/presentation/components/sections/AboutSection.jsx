@@ -22,7 +22,7 @@ export const AboutSection = ({ profile }) => {
 
                 <div className="relative w-64 h-64 sm:w-72 sm:h-72 rounded-2xl overflow-hidden border-2 border-slate-700 bg-slate-900 shadow-2xl">
                 <img
-                    src={profile.avatarUrl || "src/assets/nicolas1.png"}
+                    src={profile.avatarUrl || "/nicolas1.png"}
                     alt={profile.fullName}
                     className="w-full h-full object-cover object-top transform group-hover:scale-105 transition-transform duration-500"
                 />

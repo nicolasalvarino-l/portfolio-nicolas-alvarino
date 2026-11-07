@@ -6,7 +6,7 @@ export const profileData = createProfileModel({
   headline:
     "Ingeniero de Sistemas y QA Automation Engineer con más de 6 años de experiencia en aseguramiento de calidad, automatización de pruebas (UI, API, Performance) y CI/CD para sistemas críticos en banca y fintech. Especialista en arquitecturas escalables (Serenity BDD, Screenplay, Karate DSL, Playwright, Robot Framework), validación en sistemas core bancarios (IBM AS400 / iSeries, SQL) e Inteligencia Artificial aplicada a la calidad de software.",
   location: "Medellín, Antioquia, Colombia",
-  avatarUrl: "src/assets/nicolas.png",
+  avatarUrl: "/nicolas.png",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/nicolasalvarino",
     github: "https://github.com/",
