@@ -1,0 +1,141 @@
+import { createProfileModel } from "../domain/models/profileModel.js";
+
+export const profileData = createProfileModel({
+  fullName: "Nicolás Alvariño Laguna",
+  role: "Senior QA Automation Engineer & AI Specialist",
+  headline:
+    "Diseño arquitecturas de automatización de pruebas escalables, estrategias de aseguramiento de calidad end-to-end (E2E) e integración de modelos de Inteligencia Artificial en flujos de ingeniería de software.",
+  location: "Medellín, Colombia",
+  socialLinks: {
+    linkedin: "https://www.linkedin.com/in/nicolasalvarino",
+    github: "https://github.com/",
+    email: "contacto@nicolasalvarino.dev",
+  },
+  metrics: [
+    { id: "m1", value: "E2E & API", label: "Arquitectura de Automatización" },
+    { id: "m2", value: "CI/CD", label: "Ejecución Continua en Pipelines" },
+    {
+      id: "m3",
+      value: "AI & ML",
+      label: "Maestría en Inteligencia Artificial",
+    },
+    {
+      id: "m4",
+      value: "Shift-Left",
+      label: "Estrategia de Calidad Preventiva",
+    },
+  ],
+  skillCategories: [
+    {
+      id: "cat-qa",
+      title: "QA Automation & Frameworks",
+      skills: [
+        "Playwright",
+        "Selenium WebDriver",
+        "Cypress",
+        "Serenity BDD",
+        "Cucumber",
+        "Robot Framework",
+        "Karate DSL",
+      ],
+    },
+    {
+      id: "cat-api-perf",
+      title: "API Testing, Performance & Backend",
+      skills: [
+        "Postman / Newman",
+        "JMeter",
+        "SQL",
+        "IBM AS400 / iSeries",
+        "RESTful APIs",
+        "Pruebas de Integración",
+      ],
+    },
+    {
+      id: "cat-lang",
+      title: "Lenguajes, DevOps & IA",
+      skills: [
+        "Java 17",
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Gradle 8",
+        "Git / CI/CD",
+        "NLP & Computer Vision",
+      ],
+    },
+  ],
+  experiences: [
+    {
+      id: "exp-1",
+      company: "GFT Technologies",
+      role: "Senior QA Automation Engineer / Analista de Calidad de Software",
+      period: "Actualidad",
+      highlights: [
+        "Diseño e implementación de suites de pruebas automatizadas E2E y API utilizando patrones como Screenplay y Page Object Model.",
+        "Validación de integridad transaccional en bases de datos relacionales y entornos core bancarios / empresariales (SQL, IBM iSeries).",
+        "Liderazgo técnico en ciclos de pruebas funcionales, regresión automatizada y acompañamiento en certificaciones UAT.",
+      ],
+    },
+  ],
+  projects: [
+    {
+      id: "proj-1",
+      title:
+        "Framework de Automatización E2E y API con Serenity BDD & Playwright",
+      category: "QA Architecture",
+      description:
+        "Arquitectura de pruebas automatizadas multi-capa con reportes ejecutivos integrados en flujos de integración continua.",
+      techStack: ["Java 17", "Playwright", "Serenity BDD", "Gradle 8"],
+      repoUrl: "#",
+    },
+    {
+      id: "proj-2",
+      title:
+        "MVP de Visión por Computadora en Tiempo Real para Predicción de Demanda",
+      category: "Artificial Intelligence",
+      description:
+        "Modelo de procesamiento de video en tiempo real diseñado para inferencia y análisis predictivo de flujo operativo.",
+      techStack: ["Python", "Computer Vision", "Azure AI", "Machine Learning"],
+      repoUrl: "#",
+    },
+  ],
+  education: [
+    {
+      id: "edu-1",
+      degree: "Maestría en Inteligencia Artificial",
+      institution: "Universidad Internacional de La Rioja (UNIR)",
+      status: "En curso",
+      type: "Posgrado",
+      focus:
+        "Procesamiento de Lenguaje Natural (NLP), Visión por Computadora y Modelos de Machine Learning.",
+    },
+    {
+      id: "edu-2",
+      degree: "Ingeniería de Sistemas",
+      institution: "Educación Superior",
+      status: "7.º Semestre",
+      type: "Pregrado",
+      focus:
+        "Arquitectura de software, bases de datos relacionales, ingeniería de calidad y desarrollo de sistemas.",
+    },
+    {
+      id: "edu-3",
+      degree: "Análisis y Desarrollo de Sistemas de Información (ADSI)",
+      institution: "Formación Tecnológica",
+      status: "Completado",
+      type: "Tecnología",
+      focus:
+        "Ciclo de vida del desarrollo de software (SDLC), análisis de requerimientos y pruebas de calidad.",
+    },
+    {
+      id: "edu-4",
+      degree: "Microsoft Azure AI: Language & Computer Vision",
+      institution: "Microsoft / Bootcamp Estud-IA",
+      status: "Certificado",
+      type: "Certificación Técnica",
+      focus:
+        "Implementación de soluciones cognitivas e inferencia de visión artificial en tiempo real.",
+    },
+  ],
+});
